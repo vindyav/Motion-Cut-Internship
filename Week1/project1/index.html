@@ -1,1 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>choose</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Interface</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="search-container">
+        <div class="dropdown">
+            <button class="dropbtn">Select One <span>&#9662;</span></button>
+            <div class="dropdown-content">
+                <a href="#" onclick="selectOption('Everything')">Everything</a>
+                <a href="#" onclick="selectOption('Software Development')">Software Development</a>
+                <a href="#" onclick="selectOption('Web Development')">Web Development</a>
+                <a href="#" onclick="selectOption('Data Analyst')">Data Analyst</a>
+                <a href="#" onclick="selectOption('IT Consultant')">IT Consultant</a>
+                <a href="#" onclick="selectOption('Network Administrator')">Network Administrator</a>
+            </div>
+        </div>
+        <input type="text" class="search-input" id="searchInput" placeholder="Search Anything">
+        <button class="search-button">
+            <i class="fas fa-search"></i>
+        </button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
 
